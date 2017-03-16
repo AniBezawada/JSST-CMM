@@ -1,1 +1,1 @@
-# JSST-CMM
+#Created by Ani Bezawada for JSST Customer Mater tool to update the details in customer master table details in JSST database
