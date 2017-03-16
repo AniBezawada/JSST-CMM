@@ -1,12 +1,12 @@
 {
-  "name": "sarikutu",
+  "name": "JSST-CMM",
   "version": "1.0.0",
-  "description": "Score Update Screen",
+  "description": "JSST Customer Master Maintanance Tool",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Burhan Orkun",
+  "author": "Ani Bezawada",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
