@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSST CMM Tool</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="topDeck">
+        <div class="logo">
+            <h1>JSST CMM Tool</h1>
+        </div>
+    </div>
+    <div class="gallery">
+        <ul>
+            <h2>Update the customer details here</h2>
+			<h2>ここに顧客IDを入力してください</h2>
+        </ul>
+        <form action="/updateScore" method="post">
+            Customer ID: <input type="text" name="CUSTOMER_ID" value="{{CUSTOMER_ID}}" readonly> <br> <br>
+			Customer First Name: <input type="text" name="CUST_FIRST_NAME" value="{{CUST_FIRST_NAME}}"> <br> <br>
+			Customer Last Name: <input type="text" name="CUST_LAST_NAME" value="{{CUST_LAST_NAME}}"> <br> <br>
+			Customer Address: <input type="text" name="CUST_STREET_ADDRESS1" value="{{CUST_STREET_ADDRESS1}}"> <br> <br>
+            <input type="submit" value="Update details 詳細を更新する">
+        </form>
+        <br>
+        <br>
+		 <form action="/">
+            <input type="submit" value="Query again">
+        </form>
+    </div>
+</div>
+</body>
+</html>
